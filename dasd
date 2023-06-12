@@ -1,0 +1,22 @@
+[33mc1eb5d9[m[33m ([m[1;36mHEAD -> [m[1;32munit-test-add-remove[m[33m, [m[1;31morigin/unit-test-add-remove[m[33m)[m Add unit test for other function and do some refactor
+[33m6fc9ebf[m Merge branch 'main' into unit-test-add-remove
+[33m5794214[m Adding test in the readme.md
+[33m451bd6e[m Adding test for add and remove function
+[33m19a95ec[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m applied suggestion for more optimized code
+[33m8fdd67f[m Deploy web using https
+[33mc203e05[m Merge pull request #4 from ichsansandy/add-and-remove
+[33m3ac2f10[m Merge pull request #3 from ichsansandy/interactive-list
+[33m05d46bd[m[33m ([m[1;31morigin/add-and-remove[m[33m, [m[1;32madd-and-remove[m[33m)[m Removing live deploy link
+[33m436d3a4[m[33m ([m[1;31morigin/interactive-list[m[33m, [m[1;32minteractive-list[m[33m)[m Removing live deploy link  on readme.md
+[33mcd1cc28[m Merge pull request #2 from ichsansandy/todo-list-structure
+[33m6921efc[m Add remove and edit description for the task
+[33m0f54c79[m Add function to add new task
+[33ma28f45f[m Allow grabbing only above the symbol and add styling when task is checked
+[33m7db1b29[m Refactoring reorder function and added favicon
+[33m835435d[m Adding function to reorder by dragging
+[33m89fc6e7[m Adding function to update the list when checkbox input change and clear all completed function, with local storage save and load
+[33mc6783eb[m[33m ([m[1;31morigin/todo-list-structure[m[33m, [m[1;32mtodo-list-structure[m[33m)[m Render list form javascript and layout based on the template
+[33m692d880[m Setup project with linter and readme.md
+[33m984c98a[m Merge pull request #1 from ichsansandy/todo-list-structure
+[33mdcfd454[m Setup webpack in the project
+[33m9083b9c[m Initial commit
