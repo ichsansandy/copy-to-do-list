@@ -89,8 +89,10 @@ export default function loadTodoListCard(arrayTodoList) {
       document.body.style.cursor = 'grabbing';
       const draggingItem = document.querySelector('.dragging');
       const siblings = [...listContainer.querySelectorAll('.task-item:not(.dragging)')];
-      // eslint-disable-next-line max-len
-      const nextSibling = siblings.find((sibling) => e.clientY <= sibling.offsetTop + sibling.offsetHeight / 2);
+      function findSibling(siblings) {
+        return siblings.find((item) => e.clientY <= item.offsetTop + item.offsetHeight / 2);
+      }
+      const nextSibling = findSibling(siblings);
       listContainer.insertBefore(draggingItem, nextSibling);
     };
 
